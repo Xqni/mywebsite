@@ -1,0 +1,17 @@
+.navbar-brand {
+    font-size: 36px !important;
+}
+
+
+
+.text-container{
+    margin: 100px 0 0 0;
+    padding: 50px;
+    background-color: black;
+}
+
+.main {
+    text-align: center;
+    font-size: 68px;
+    color: white;
+}
