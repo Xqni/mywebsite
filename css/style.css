@@ -1,10 +1,70 @@
-.navbar-brand {
-    font-size: 36px !important;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+
+/* WHole Body Style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A; */
 }
 
 
+/* NavBar style */
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    border-bottom: #FFFFFF solid 1px;
+}
+
+.nav_links li a:hover {
+    border-bottom: #000000 solid 1px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 15, 8, 1);
+    color: #FFFFFF;
+    border: #FFFFFF solid 0.1px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+    border: #000000 solid 0.1px;
+}
 
 .text-container{
+    font-family: "Montserrat", sans-serif;
     margin: 100px 0 0 0;
     padding: 50px;
     background-color: black;
