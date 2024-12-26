@@ -128,7 +128,7 @@ button:hover {
 }
 
 .project-description p{
-    padding: 0 200px 0 0;
+    padding: 0 50px 0 0;
 }
 
 .project-description button {
@@ -148,4 +148,5 @@ button:hover {
 .project img{
     border: none;
     border-radius: 10px;
+    object-fit: cover;
 }
