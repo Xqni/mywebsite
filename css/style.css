@@ -176,7 +176,7 @@ button:hover {
 }
 
 .hobby{
-    height: 650px;
+    height: 750px;
     width: 700px;
     padding: 10px;
     gap: 20px;
@@ -198,9 +198,23 @@ button:hover {
 .hobby .card-body {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 25px;
 }
 
 .hobby .card-body h2 {
     text-decoration: underline;
+}
+
+.end {
+    margin: 100px;
+}
+
+.end-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.end-contact p {
+    margin-top: 40px;
+    padding-right: 60em;
 }
