@@ -109,7 +109,7 @@ button:hover {
 
 /* Project Section */
 .project-container{
-    background-color: #353535;
+    background-color: #000000;
     margin: 50px 100px;
     padding: 50px;
     border: none;
@@ -140,7 +140,7 @@ button:hover {
 
 .project-description button:hover {
     margin-top: 50px;
-    background-color: #353535;
+    background-color: #000000;
     border: #D2D7DF solid 1px;
     color: white;
 }
