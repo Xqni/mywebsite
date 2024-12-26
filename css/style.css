@@ -150,3 +150,46 @@ button:hover {
     border-radius: 10px;
     object-fit: cover;
 }
+
+
+
+/* Hobbies section */
+
+.hobbies {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hobbies-description{
+    padding-right: 60em;
+}
+
+.hobbies-container {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 40px;
+}
+
+.hobby{
+    height: 650px;
+    width: 700px;
+    padding: 40px;
+    gap: 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.hobby h2{
+    text-decoration: underline;
+}
